@@ -1,0 +1,128 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div id="themeSlider" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#themeSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#themeSlider" data-slide-to="1"></li>
+        <li data-target="#themeSlider" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="imgOverlay"></div>
+            <img style="height: 320px; width:100%" src="../Images/84-847258_groceries-png-picture-transparent-background-groceries-png.png"  alt="First slide">
+            <div class="carousel-caption">
+                <h3>Groceries</h3>
+                <p>Shop Online For Groceries Now</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="imgOverlay"></div>
+            <img style="height: 320px; width:100%" src="../Images/iphone12.png" alt="Second slide">
+            <div class="carousel-caption">
+                <h3>Mobile</h3>
+                <p>Get Your Favourite Mobile or Laptop Right Now!</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="imgOverlay"></div>
+            <img style="height: 320px; width:100%" src="../Images/smeg-brand-header-banner-1564752694.jpg" alt="Third slide">
+            <div class="carousel-caption">
+                <h3>Electronics & Appliances</h3>
+                <p>We Only Keep The Best Brands Around!</p>
+            </div>
+        </div>
+    </div>
+
+    <a class="left carousel-control" href="#themeSlider" data-slide="prev">
+        <span class="fa fa-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#themeSlider" data-slide="next">
+        <span class="fa fa-chevron-right"></span>
+    </a>
+</div>
+<div class="olContent f1"><h2 style="color:black">Search Product or Category</h2></div>
+<form method="post">
+    <div class="olSearch fr">
+        <input type="text" placeholder="Enter Keyword" name="search" class="inputComn houseText form-control" />
+        <div class="searchIcon">
+            <button type="button" class="searchBtn">
+            </button>
+        </div>
+
+    </div>
+</form>
+<div class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h2>Our Products <small>Trending Right Now</small></h2>
+        </div>
+    </div>
+</div>
+
+<div class="row product-container">
+
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:300px">
+
+            <img class="img-responsive" title="Click to View Product detail"
+                 style="cursor:pointer;height:160px;width:100%"
+                 src="~/Images/apple-iphone-12-pro-max-gold-01.jpg" />
+
+            <div class="caption">
+                <h5>iPhone 12 Pro 128GB - Gold</h5>
+                <p>R21 999</p>
+                <a class="pull-right" href="#"><i class="fa fa-shopping-cart"></i></a>
+                <p>Available</p>
+                <div class="product-item-badge">New</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:300px">
+
+            <img class="img-responsive" title="Click to View Product detail"
+                 style="cursor:pointer;height:160px;width:100%"
+                 src="~/Images/Hero-MacBookPro-M1-2@2560x1625.jpg" />
+
+            <div class="caption">
+                <h5>13-inch MacBook Pro | Apple M1 chip | 512GB - Space Grey</h5>
+                <p>R27 999</p>
+                <p>Available</p>
+                <div class="product-item-badge">New</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:300px">
+
+            <img class="img-responsive" title="Click to View Product detail"
+                 style="cursor:pointer;height:160px;width:100%"
+                 src="~/Images/ps5.png" />
+
+            <div class="caption">
+                <h5>Sony Playstation 5 Console PS5 - Disc Edition</h5>
+                <p>R16 999</p>
+                <p>Available</p>
+                <div class="product-item-badge">New</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:300px">
+
+            <img class="img-responsive" title="Click to View Product detail"
+                 style="cursor:pointer;height:160px;width:100%"
+                 src="~/Images/4884349_R_Z001A.jpg" />
+
+            <div class="caption">
+                <h5>Russell Hobbs K65 Anniversary Kettle</h5>
+                <p>R299.99</p>
+                <p>Available</p>
+                <div class="product-item-badge">New</div>
+            </div>
+        </div>
+    </div>
+</div>
